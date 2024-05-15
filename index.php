@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ingresar</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+  
+<body>
+  <div class="backgroundlogin white">
+    <div class="background__overlay">
+      <form method="post" action="./php/scripts/login_action.php" class="formu1">
+        <h2>Bienvenido</h2>
+        <div class="formu__elementos">
+          <div class="formu__elementos__input">
+            <div class="input-group">
+                <label for="email">Correo electronico</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+          </div>
+          <button type="submit" class="menu__button">Ingresar</button>
+        </div>
+        <p>¿Aun no tienes una cuenta?</br><a href="signup.php">Registrate</a></p>
+      </form> 
+    </div>
+  </div>
+</body>
+</html>
