@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ubuntu", sans-serif;
+    font-style: normal;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.background {
+    background-image: url('../assets/iniciofondo.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height:100vh;
+}
+
+.backgroundlogin {
+    background-image: url('../assets/loginfondo.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height:100vh;
+}
+
+.backgroundsignup {
+    background-image: url('../assets/signupfondo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:100vh;
+}
+
+.backgrounddashboard {
+    background-image: url('../assets/dashboardfondo.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height:100%;
+}
+
+.input-group {
+    display:flex;
+    flex-direction:column;
+}
+.formu1 {
+    padding: 20px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex-direction:column;
+    background: rgba(0, 50, 73, 0.8);
+    border: 3px solid #007EA7;
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    gap:30px;
+}
+
+.formu2 {
+    padding: 20px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex-direction:column;
+    background: rgba(0, 50, 73, 0.8);
+    border: 3px solid #007EA7;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    gap:30px;
+}
+
+.formu3 {
+    padding: 20px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex-direction:column;
+    background: rgba(0, 50, 73, 0.8);
+    border: 3px solid #007EA7;
+    border-radius: 10px;
+    width: 300px;
+    height: 800px;
+    gap:30px;
+}
+
+.formu__elementos {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+.formu__elementos__input {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+.nav {
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    width:100%;
+    padding: 10px 20px;
+    background-color: rgba(0, 50, 73, 0.5);
+    border-bottom: 1px solid #000000;
+}
+
+.background__overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 50, 73, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    gap:100px;
+}
+
+.background__overlaydash {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 50, 73, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction:column;
+    gap:50px;
+}
+
+.titles{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+.titles__title{
+    color: #ffffff;
+    font-weight:700;
+    font-size:80px;
+}
+
+.titles__title--sub{
+    font-weight:400;
+    font-size:15px;
+}
+
+.titles__title--sub2{
+    font-weight:400;
+    font-size:25px;
+}
+
+.menu {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.menu__button {
+    background-color: #007EA7;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.menu__button:hover {
+    background-color: #003249;
+}
+
+/* Cambia el color de todos los enlaces no visitados */
+a:link {
+    color: white;
+}
+
+/* Cambia el color de todos los enlaces visitados */
+a:visited {
+    color: white;
+}
+
+/* Cambia el color de los enlaces al pasar el mouse sobre ellos */
+a:hover {
+    color: black;
+}
+
+/* Cambia el color de los enlaces al hacer clic en ellos */
+a:active {
+    color: green;
+}
+
+.fotomascota {
+  width: 100%; 
+  height: auto;
+  border: 1px solid #003249; 
+  padding: 5px;
+  border-radius: 20px;
+}
+.nombremascota {
+    color: #ffffff;
+    font-weight:500;
+    font-size:40px;
+    font-style:italic;
+}
+
+.fichaperro {
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:10px;
+}
+
+.fichaperroizq {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.fichaperroder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.nombrenav {
+    width:50%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height:100%
+}
+
+.botonesnav {
+    width:50%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height:100%;
+}
+
+.fichamascota {
+    text-align:center;
+    width:100%;
+    font-style:italic;
+    color: #ffffff;
+    font-weight:400;
+    font-size:30px;
+    background: rgba(0, 50, 73, 0.8);
+    border-radius:10px;
+}
+
+.sensores{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.fichamascota__sensor {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height: 120px;
+    text-align:center;
+    width:100%;
+    font-style:italic;
+    color: #ffffff;
+    font-weight:400;
+    font-size:30px;
+    background: rgba(0, 50, 73, 0.8);
+    border-radius:20px;
+}
+
+.camaras {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.imagencamara {
+  width: 50%; 
+  height: auto;
+  border: 1px solid #003249; 
+  padding: 5px; 
+}
